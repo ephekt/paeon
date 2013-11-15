@@ -1,0 +1,2 @@
+*/40 * * * * cd /home/mrose/Paeon && node checkup.js '{"url":"http://paloalto.opengov.com"}' > checkup_paloalto.prod.txt
+30 23 * * * cd /home/mrose/Paeon && node checkup.js '{"max_timeout":7000,"url":"http://paloalto.opengov.com"}' > checkup_all_prod.txt

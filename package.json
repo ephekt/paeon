@@ -1,0 +1,15 @@
+{
+  "name": "Paeon",
+  "version": "0.0.1",
+  "description": "Hit a URL and check for health/screenshot",
+  "author": "Mike Rosengarten <mrosengarten@opengov.com>",
+  "dependencies": {
+    "phantom":"0.4.2",
+    "twilio-js": "0.1.1",
+    "aws-sdk":">=0.1",
+    "request":"~2.16",
+    "loggly": "git://github.com/ephekt/node-loggly.git#master",
+    "cheerio":"0.12.1"
+  },
+  "engine": "node = 0.8.9"
+}
