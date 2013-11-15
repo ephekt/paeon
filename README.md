@@ -1,5 +1,7 @@
 ***This is not in production and is a prototype***
 
+I built this tool as a prototype for my company. We used it for 6 or so months until we had better systems in place. Saving here for reference/to remember what I did. This is a simple tool that takes a URL, snaps a screenshot and check the load time using Phantom JS, and sends me a Txt message if the URL takes too long to load.
+
 # Paeon
 Site responsiveness checker.
 
