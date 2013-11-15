@@ -181,7 +181,6 @@ var run_check = function(opts) {
 // Run CLI with a JSON string with any of the following options
 if (process.argv.length < 3) {
     console.log('Usage: checkup.js \'{"url":"<some URL>", "max_timeout":"<(optional) milliseconds>"\'');
-    console.log('If no URL is provided this tool will check all production transparency apps listed on opengov.com/customers!');
     process.exit(1);
 } else {
     opts = JSON.parse(process.argv[2]);
