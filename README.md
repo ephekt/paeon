@@ -32,15 +32,16 @@ Paeon is a routine checkup on the responsiveness (page load/rendering) of a web 
 
 #####
 Sample run with a specific URL:
+```
   mikes-MacBook-Pro:Paeon mrose$ node checkup.js '{"max_timeout":4000,"url":"http://paloalto.delphi.us"}'
   { max_timeout: 4000, url: 'http://paloalto.delphi.us' }
   Loading time 3025 ms. Status code: success
   Storing screenshot for http.paloalto.delphi.us
   Snapping Screenshot
   Successfully uploaded file.
-  Killing PhantonJS
+  Killing PhantomJS
   Log pushed to Loggly
-
+```
 
 ## Author
 Author(s): Michael Rosengarten
